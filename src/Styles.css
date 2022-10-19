@@ -76,7 +76,7 @@ ul li:hover {
     flex-direction: row;
     justify-content: space-around;
     align-self: flex-end;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .rightContent {
@@ -93,4 +93,72 @@ ul li:hover {
 .rightContent h3 {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
+}
+
+/* About */
+
+.aboutScreen {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.leftScreenAbout {
+    padding: 3rem;
+}
+
+.rightScreenAbout {
+    padding: 3rem;
+}
+
+/* Works */
+
+.worksScreen {
+    padding: 3rem;
+}
+
+.workItem {
+    display: flex;
+}
+
+.leftScreenWorks {
+    padding: 3rem;
+    width: 50%;
+}
+
+.leftScreenWorks img {
+    width: 100%;
+}
+
+.rightScreenWorks {
+    padding: 3rem;
+    width: 50%;
+}
+
+/* Contact */
+
+.contactScreen {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.itemContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.itemContact a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.itemContact span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 3rem;
 }
