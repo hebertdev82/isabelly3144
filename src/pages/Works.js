@@ -1,3 +1,5 @@
+import '../Styles.css';
+
 const Works = () => {
     return <div className="worksScreen">
 
@@ -9,6 +11,7 @@ const Works = () => {
 
         <div className="rightScreenWorks">
           <h4>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</h4>
+          <a className="button" target="{_blank}" href="https://github.com/Isabelly1/Recipes-project">Confira esse projeto</a>
         </div>
       </div>
 
@@ -20,6 +23,7 @@ const Works = () => {
 
         <div className="rightScreenWorks">
           <h4>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</h4>
+          <a className="button" target="{_blank}" href="#">Confira esse projeto</a>
         </div>
       </div>
 
@@ -31,6 +35,7 @@ const Works = () => {
 
         <div className="rightScreenWorks">
           <h4>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</h4>
+          <a className="button" target="{_blank}" href="#">Confira esse projeto</a>
         </div>
       </div>
 
@@ -42,6 +47,7 @@ const Works = () => {
 
         <div className="rightScreenWorks">
           <h4>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</h4>
+          <a className="button" target="{_blank}" href="#">Confira esse projeto</a>
         </div>
       </div>
 
@@ -53,6 +59,7 @@ const Works = () => {
 
         <div className="rightScreenWorks">
           <h4>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</h4>
+          <a className="button" target="{_blank}" href="#">Confira esse projeto</a>
         </div>
       </div>
 
@@ -64,6 +71,7 @@ const Works = () => {
 
         <div className="rightScreenWorks">
           <h4>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</h4>
+          <a className="button" target="{_blank}" href="#">Confira esse projeto</a>
         </div>
       </div>
 
@@ -75,6 +83,7 @@ const Works = () => {
 
         <div className="rightScreenWorks">
           <h4>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</h4>
+          <a className="button" target="{_blank}" href="#">Confira esse projeto</a>
         </div>
       </div>
 

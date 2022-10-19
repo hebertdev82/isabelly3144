@@ -4,29 +4,29 @@ const About = () => {
     return <div className="aboutScreen">
 
       <div className="leftScreenAbout">
-        <h1>About Me!</h1>
-        <p>Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</p>
+        <h1>Olá, me chamo Isabelly Martins Lopes</h1>
+        <p>Tenho 20 anos e nasci e cresci na cidade de São Paulo/SP. Sou uma calma, e sempre gosto de aprender mais, e com esse desejo de aprender sonho em levar conhecimento a outras pessoas.</p>
 
-        <p>Quem num gosta di mim que vai caçá sua turmis!Per aumento de cachacis, eu reclamis.Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!Interagi no mé, cursus quis, vehicula ac nisi.</p>
+        <p>Comecei minha carreira como facilitadora de inglês técnico para devs, fazendo Análise e Desenvolvimento de Sistemas na Unicid.</p>
 
-        <p>Quem num gosta di mé, boa gentis num é.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Diuretics paradis num copo é motivis de denguis.Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</p>
+        <p>Através da Faculdade conheci o Vai na Web, e lá comecei aprender sobre desenvolvimento Front-End, estou em busca de me tornar uma desenvolvedora Full-Stack, para isso estou me empenhando para alcançar essa meta.</p>
 
         <div className="buttons">
           <div className="button01">
-            <a href="https://github.com"><img src="github-logo.png" alt="Github" /></a>
+            <a href="https://github.com/Isabelly1" target="{_blank}"><img src="github-logo.png" alt="Github" /></a>
           </div>
           <div className="button02">
-            <a href="https://instagram.com"><img src="instagram-logo.png" alt="Instagram" /></a>
+            <a href="https://instagram.com/isabellymartins.1" target="{_blank}"><img src="instagram-logo.png" alt="Instagram" /></a>
           </div>
           <div className="button03">
-          <a href="https://linkedin.com"><img src="linkedin-logo.png" alt="Linkedin" /></a>
+          <a href="https://linkedin.com/in/isabelly-martins-" target="{_blank}"><img src="linkedin-logo.png" alt="Linkedin" /></a>
           </div>
         </div>
 
       </div>
       
       <div className="rightScreenAbout">
-        <img src="about-me.png" alt="About Me" />
+        <img src="photo02.jpg" alt="About Me" />
       </div>
       
     </div>;

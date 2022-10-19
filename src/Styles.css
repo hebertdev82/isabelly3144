@@ -62,6 +62,69 @@ ul li:hover {
     color: white;
 }
 
+/* Mobile Menu */
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 0!important;
+    margin: 0!important;
+    margin-top: 6rem!important;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header nav {
+      display: none;
+    }
+  
+    #hamburger-icon {
+      display: block;
+    }
+  }
 
 /* Home */
 
@@ -95,12 +158,23 @@ ul li:hover {
     font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 768px) {
+    .homeConfig {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .leftContent img {
+        width: 100%;
+    }
+}
+
 /* About */
 
 .aboutScreen {
     display: flex;
     justify-content: space-around;
-    padding: 3%;
+    padding: 3rem;
 }
 
 .leftScreenAbout {
@@ -109,6 +183,38 @@ ul li:hover {
 
 .rightScreenAbout {
     padding: 3rem;
+}
+
+.rightScreenAbout img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+    .aboutScreen {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .rightScreenAbout {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        padding: 1rem;
+    }
+
+    .leftScreenAbout {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+        padding: 1rem;
+    }
+    
 }
 
 /* Works */
@@ -128,6 +234,7 @@ ul li:hover {
 
 .leftScreenWorks img {
     width: 100%;
+    border-radius: 50px;
 }
 
 .rightScreenWorks {
@@ -135,18 +242,67 @@ ul li:hover {
     width: 50%;
 }
 
+.rightScreenWorks h4 {
+    margin-bottom: 2rem;
+}
+
+.rightScreenWorks a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0!important;
+}
+
+@media (max-width: 768px) {
+    .worksScreen {
+        padding: 1rem;
+    }
+    
+    .workItem {
+        flex-direction: column;
+        margin: 0;
+        padding: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .leftScreenWorks {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rightScreenWorks {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* Contact */
 
 .contactScreen {
     display: flex;
     justify-content: space-around;
+    padding: 5rem;
+}
+
+.leftContactScreen {
     padding: 3rem;
+    width: 70%;
+}
+
+.rightContactScreen {
+    padding: 3rem;
+    width: 30%;
+}
+
+.rightContactScreen img {
+    width: 100%;
+    border-radius: 50px;
 }
 
 .itemContact {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 1rem;
     align-items: center;
 }
@@ -154,11 +310,51 @@ ul li:hover {
 .itemContact a {
     text-decoration: none;
     color: black;
-    
 }
 
 .itemContact span {
     font-size: 1.3rem;
     font-weight: bold;
-    margin-left: 3rem;
+    padding-left: 2rem;
+}
+
+@media (max-width: 768px) {
+    .contactScreen {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .leftContactScreen {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .rightContactScreen {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .rightContactScreen img {
+        width: 50%;
+    }
+
+    .itemContact {
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+    }
 }

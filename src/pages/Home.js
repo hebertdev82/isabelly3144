@@ -13,13 +13,13 @@ const Home = () => {
 
       <div className="buttons">
         <div className="button01">
-          <a href="https://github.com"><img src="github-logo.png" alt="Github" /></a>
+          <a href="https://github.com/Isabelly1" target="{_blank}"><img src="github-logo.png" alt="Github" /></a>
         </div>
         <div className="button02">
-          <a href="https://instagram.com"><img src="instagram-logo.png" alt="Instagram" /></a>
+          <a href="https://instagram.com/isabellymartins.1" target="{_blank}"><img src="instagram-logo.png" alt="Instagram" /></a>
         </div>
         <div className="button03">
-        <a href="https://linkedin.com"><img src="linkedin-logo.png" alt="Linkedin" /></a>
+        <a href="https://linkedin.com/in/isabelly-martins-" target="{_blank}"><img src="linkedin-logo.png" alt="Linkedin" /></a>
         </div>
       </div>
 
