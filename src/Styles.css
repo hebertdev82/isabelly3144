@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul a {
+    color: white;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.button {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #731627;
+    list-style: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Home */
+
+.homeConfig {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+    margin-top: 5rem;
+}
+
+.rightContent {
+   text-align: center;
+   
+}
+
+.rightContent h1 {
+    font-size: 3rem;
+    font-family: 'Roboto-Black', sans-serif;
+    font-weight: 900;
+}
+
+.rightContent h3 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
